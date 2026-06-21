@@ -1,0 +1,119 @@
+.generator-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.generator-container.dark {
+  background: #1a1a2e;
+}
+
+.generator-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  padding: 32px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 460px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+/* .generator-card h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size:larger;
+  
+} */
+
+.generator-card h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: #4b0082;
+}
+
+.container.dark .generator-card h1 {
+  color: #bb86fc;
+}
+
+.toggle {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.length-container {
+  margin: 15px 0;
+}
+
+.length-container input {
+  width: 100%;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.output {
+  background: #f1f1f1;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  word-break: break-all;
+}
+
+.strength-bar {
+  height: 6px;
+  background: #ddd;
+  margin-top: 10px;
+}
+
+.strength-fill {
+  height: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px;
+}
+
+.toast {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.generate {
+  background: #4b0082;
+  color: white;
+}
+
+.copy {
+  background: #ff9800;
+  color: white;
+}
+
+.save {
+  background: #2196f3;
+  color: white;
+}
+
+.download {
+  background: #28a745;
+  color: white;
+}
+
+.pdf {
+  background: #e63946;
+  color: white;
+}
